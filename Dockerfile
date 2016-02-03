@@ -10,4 +10,4 @@ RUN mkdir /data
 VOLUME ['./data:/data']
 WORKDIR ['/data']
 
-ENTRYPOINT /go/gcsfuse
+ENTRYPOINT /go/bin/gcsfuse
